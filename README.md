@@ -2,7 +2,7 @@
 **Chain ID**: nolus-rila | **Latest Version Tag**: v0.1.43 | **Wasm**: ON
 
 ## Dashboard
-* [http://grafana.nolus.nolusination.online:9999/d/Nolus-dashbord/nolus-dashbord?orgId=1&refresh=10s](http://grafana.nolus.nolusination.online:9999/d/Nolus-dashbord/nolus-dashbord?orgId=1&refresh=10s)
+* [http://grafana.nolus.nolusination.online/d/Nolus-dashbord/nolus-dashbord?orgId=1&refresh=10s](http://grafana.nolus.nolusination.online/d/Nolus-dashbord/nolus-dashbord?orgId=1&refresh=10s)
 
 ## Public endpoints
 * [https://api.nolus.nolusination.online/](https://api.nolus.nolusination.online/)
