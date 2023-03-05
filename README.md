@@ -30,7 +30,7 @@ source $HOME/.bash_profile && \
 go version
 ```
 
-##### Install Nolus
+### Install Nolus
 ```bash
 cd $HOME
 git clone https://github.com/Nolus-Protocol/nolus-core
@@ -39,12 +39,12 @@ git checkout v0.1.43
 make install
 ```
 
-###### Create/Recover Wallet
+### Create/Recover Wallet
 ```bash
 nolusd keys add <walletname>
 nolusd keys add <walletname> --recover
 ```
-####### Download Genesis
+### Download Genesis
 ```bash
 wget -O $HOME/.nolus/config/genesis.json "https://raw.githubusercontent.com/Nolus-Protocol/nolus-networks/main/testnet/nolus-rila/genesis.json"
 ```
