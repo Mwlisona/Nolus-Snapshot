@@ -1,5 +1,7 @@
 # Service
+**Chain ID**: nolus-rila | **Latest Version Tag**: v0.1.43 | **Wasm**: ON
 
+## Public endpoints
 * [https://api.nolus.nolusination.online/](https://api.nolus.nolusination.online/)
 * [https://rpc.nolus.nolusination.online/](https://rpc.nolus.nolusination.online/)
 * [https://grpc-web.nolus.nolusination.online/](https://grpc-web.nolus.nolusination.online/)
