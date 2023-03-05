@@ -1,11 +1,19 @@
-# Installing Node Nolus with Snapshot Instructions
+# Service
 
-## Update Server
+* [https://api.nolus.nolusination.online/](https://api.nolus.nolusination.online/)
+* [https://rpc.nolus.nolusination.online/](https://rpc.nolus.nolusination.online/)
+* [https://grpc-web.nolus.nolusination.online/](https://grpc-web.nolus.nolusination.online/)
+
+
+
+## Installing Node Nolus with Snapshot Instructions
+
+### Update Server
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
 ```
-### Install GO 1.9
+#### Install GO 1.9
 ```bash
 ver="1.19" && \
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \
@@ -17,7 +25,7 @@ source $HOME/.bash_profile && \
 go version
 ```
 
-#### Install Nolus
+##### Install Nolus
 ```bash
 cd $HOME
 git clone https://github.com/Nolus-Protocol/nolus-core
@@ -26,12 +34,12 @@ git checkout v0.1.43
 make install
 ```
 
-### Create/Recover Wallet
+###### Create/Recover Wallet
 ```bash
 nolusd keys add <walletname>
 nolusd keys add <walletname> --recover
 ```
-### Download Genesis
+####### Download Genesis
 ```bash
 wget -O $HOME/.nolus/config/genesis.json "https://raw.githubusercontent.com/Nolus-Protocol/nolus-networks/main/testnet/nolus-rila/genesis.json"
 ```
